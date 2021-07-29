@@ -7,14 +7,17 @@ body{
     text-align: center;
 }
 ul{
-    
     display: inline-block;
 }
 li{
+    
     float: left;
-    color: cornsilk;
     list-style: none;
     padding-left: 40px;
+}
+a{
+    color: rgb(243, 242, 237);
+    text-decoration: none;
 }
 
 .header-part{
@@ -47,8 +50,6 @@ img{
 }
 
 .about-me{
-    background-image: url(images/Frame\ 57.jpg);
-    background-repeat: no-repeat;
     margin-top: 10px;
 }
 .text-align{
