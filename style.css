@@ -3,7 +3,7 @@ body{
 }
 .menuvar{
     background-color: rgb(50, 177, 149);
-    font-size: 200%;
+    font-size: 180%;
     text-align: center;
 }
 ul{
@@ -58,11 +58,13 @@ img{
 
 
 .half-width{
+    border-radius: 5px;
     margin-top: 40px;
     width:28.333%;
 }
 .title-one{
-    padding-left: 5%;
+    padding-left: 4%;
+    border-radius: 8%;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
