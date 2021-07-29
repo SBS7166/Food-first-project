@@ -1,9 +1,25 @@
 body{
     margin:auto;
 }
+.menuvar{
+    background-color: rgb(50, 177, 149);
+    font-size: 200%;
+    text-align: center;
+}
+ul{
+    
+    display: inline-block;
+}
+li{
+    float: left;
+    color: cornsilk;
+    list-style: none;
+    padding-left: 40px;
+}
 
 .header-part{
     display: flex;
+    
 }
 h1{
     font-size: 300%;
@@ -31,19 +47,30 @@ img{
 }
 
 .about-me{
-    margin-top: 40px;
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    margin-top: 10px;
 }
-.recipies{
+.text-align{
     text-align: center;
 }
 
 
 .half-width{
+    margin-top: 40px;
     width:28.333%;
-    
-    padding-left: 5%;
 }
 .title-one{
+    padding-left: 5%;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+}
+.footer{
+    background-color: rgb(53, 119, 116);
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+.footer-part{
+    color:darkgray;
+    padding-top: 2%;
 }
